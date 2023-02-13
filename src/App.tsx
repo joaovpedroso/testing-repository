@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="App-header"></div>
       <h1>Oi meu chapa!</h1>
-      <Form />
+      <Form onSubmit={() => console.log("foo")} />
     </div>
   );
 }
