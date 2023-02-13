@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
-import Button from "../Button";
-import Input from "../Input";
+import Button from "components/Button";
+import Input from "components/Input";
 import { FormSchema } from "./Form.schema";
 import * as styled from "./Form.styles";
 import { IForm, IFormValues } from "./Form.types";
