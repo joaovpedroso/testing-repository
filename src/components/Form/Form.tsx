@@ -17,7 +17,6 @@ function Form({ onSubmit }: IForm) {
   });
 
   function handleSubmitForm(values: IFormValues) {
-    console.log("submit form values", values);
     onSubmit?.(values);
   }
 
@@ -38,6 +37,7 @@ function Form({ onSubmit }: IForm) {
       </styled.InputGroup>
 
       <Button type="submit">Enviar dados</Button>
+      <Button type="button">Cancelar</Button>
     </styled.Form>
   );
 }
